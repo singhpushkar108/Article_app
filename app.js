@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true })); // Middleware to parse incoming
 
 //app.use(cors({origin:[parser.env.CLIENT_URL],credentials:true})); //specifies the allowed origin(s) from which requests are allowed to be made to your server
 
-app.use(express.static('../frontend/'));
+app.use(express.static('./'));
 
 app.use('/api/auth',router);
 
