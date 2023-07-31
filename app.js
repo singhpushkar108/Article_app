@@ -17,7 +17,7 @@ app.use(express.static('./'));
 app.use('/api/auth',router);
 
 app.get('*', (req, res) => {
-  res.status(404).redirect("Not-Found.html");
+  res.status(404).redirect("https://backend-server-yzww.onrender.com/Not-Found.html");
 });
 
 
