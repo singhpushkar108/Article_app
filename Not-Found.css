@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("./assets/bg-img2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value as per your requirement */
+    z-index: -1;
+}
+
+
+header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 150px;
+    color: antiquewhite;
+}
+
+#head-left{
+    height: 100%;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:greenyellow;
+}
+
+nav{
+    width:40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+ a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+a:hover{
+    color: mediumorchid;
+}
+
+button{
+    width:100px;
+    height:40px;
+    background-color: rgb(127, 39, 242);
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+button:hover{
+     text-decoration-color: white;
+    text-decoration: underline;
+}
+
+
+main{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap:10px;
+}
+
+
+#main-top{
+    width:40%;
+    font-weight: 600;
+    color: aquamarine;
+    text-align: center;
+}
+
+#main-mid{
+    width:40%;
+    height: 30%;
+    font-size: 150px;
+    font-weight: 600;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#main-bot{
+    width:40%;
+    color: antiquewhite;
+    text-align: center;
+}

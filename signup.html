@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="container">
+          <header>
+              <div id="head-left">
+                  <h3>Gradient Technologies</h3>
+              </div>
+                  <nav>
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li>About Us</li>
+                           <li>Contact Us</li>
+                       </ul>
+              </nav>
+          </header>
+          
+          <main>
+               <form >
+                  
+                   <div>
+                        <h2>Sign Up</h2>
+                    </div>
+
+                  <div id="userinfo">
+                       <label for="name"><img src="./assets/user-solid.svg" alt="user-icon"></label>
+                       <input type="text" name="name" placeholder="Your Name"id="inpName" required>
+                  </div>
+
+                  <div id="userinfo">
+                       <label for="email"><img src="./assets/envelope-solid.svg" alt="mail-icon"></label>
+                       <input type="text" name="email" placeholder="Your Email" id="inpEmail" required>
+                  </div>
+
+                  <div id="userinfo">
+                       <label for="pswd"><img src="./assets/lock-solid.svg" alt="lock-icon"></label>
+                       <input type="password" name="password" placeholder="Choose your password" required id="inpPswd">
+                  </div>
+
+                  <div id="userinfo">
+                       <label for="confirm"><img src="./assets/key-solid.svg" alt="key-icon"></label>
+                       <input type="password" name="confirmPassword" placeholder="Confirm your password" id="inpCnfrm" required>
+                  </div>
+
+                  <div id="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the statements in <a href="" style="color:blue; text-decoration: underline;">Terms of Services</a></label>
+                  </div>
+                    <span id="msg"></span>
+                  <div>
+                      <input type="submit" value="Register" id="button">
+                  </div>
+                  
+                  <div>
+                      <p>Already registered ? <a href="signin.html" style="color:blue; text-decoration: underline;">Sign In</a></p>
+                  </div>
+
+               </form>
+               
+       </main>
+        
+    </div>
+    
+    <script type="module" src="signup.js"></script>
+</body>
+</html>

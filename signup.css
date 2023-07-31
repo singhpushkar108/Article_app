@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(./assets/bg-img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7); /* Adjust the alpha value as per your requirement */
+    z-index: -1;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 150px;
+    color: antiquewhite;
+}
+
+#head-left{
+    height: 100%;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:greenyellow;
+}
+
+nav{
+    width:40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+li{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li:hover, a:hover{
+    color: mediumorchid;
+}
+
+#button{
+    width:100px;
+    height:40px;
+    background-color: rgb(127, 39, 242);
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    transition:  text-decoration 0.3s ease-in-out;
+}
+
+#button:hover{
+    text-decoration-color: white;
+    text-decoration:underline;
+}
+
+
+main{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap:25px;
+    background-color: rgba(255,255,255,0.8);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    
+}
+
+
+#msg{
+    display: none;
+    color: red;
+    font-weight: 600;
+    font-size:15px;
+}
+
+#userinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+        
+}
+
+#terms{
+}
+
+label img{
+    width: 30px;
+    height: 30px;
+}
+
+#inpName,#inpEmail,#inpPswd,#inpCnfrm{
+    height: 50px;
+    width: 250px;
+    border-radius:10px;
+    border:none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    font-size:15px;
+    font-weight: 600;
+    padding-left: 20px;
+    
+}
