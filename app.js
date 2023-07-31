@@ -17,7 +17,7 @@ app.use(express.static('./'));
 app.use('/api/auth',router);
 
 app.get('*', (req, res) => {
-  res.status(404).redirect("./Not-found.html");
+  res.status(404).redirect("/Not-found.html");
 });
 
 
